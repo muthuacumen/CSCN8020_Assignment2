@@ -1,0 +1,109 @@
+2026-06-24 20:00:23,682 | INFO | === CSCN8020 Assignment 2: Q-Learning on Taxi-v3 ===
+2026-06-24 20:00:23,682 | INFO | Student: Muthuraj Jayakumar | Student ID: 9084570
+2026-06-24 20:00:23,682 | INFO | Baseline hyperparameters: alpha=0.1, epsilon=0.1, gamma=0.9
+2026-06-24 20:00:23,682 | INFO | Seed: 42 | Episodes per run: 5000
+2026-06-24 20:00:23,738 | INFO | Training START | alpha=0.1000  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:00:24,824 | INFO | Episode   500/5000 | avg_reward(last 500)=-185.76 | avg_steps= 133.9
+2026-06-24 20:00:25,198 | INFO | Episode  1000/5000 | avg_reward(last 500)= -38.01 | avg_steps=  44.9
+2026-06-24 20:00:25,366 | INFO | Episode  1500/5000 | avg_reward(last 500)=  -5.01 | avg_steps=  20.2
+2026-06-24 20:00:25,498 | INFO | Episode  2000/5000 | avg_reward(last 500)=   0.15 | avg_steps=  16.1
+2026-06-24 20:00:25,627 | INFO | Episode  2500/5000 | avg_reward(last 500)=   1.74 | avg_steps=  15.3
+2026-06-24 20:00:25,750 | INFO | Episode  3000/5000 | avg_reward(last 500)=   2.21 | avg_steps=  14.8
+2026-06-24 20:00:25,881 | INFO | Episode  3500/5000 | avg_reward(last 500)=   2.05 | avg_steps=  14.8
+2026-06-24 20:00:26,004 | INFO | Episode  4000/5000 | avg_reward(last 500)=   2.40 | avg_steps=  14.7
+2026-06-24 20:00:26,138 | INFO | Episode  4500/5000 | avg_reward(last 500)=   2.43 | avg_steps=  14.7
+2026-06-24 20:00:26,303 | INFO | Episode  5000/5000 | avg_reward(last 500)=   1.89 | avg_steps=  15.0
+2026-06-24 20:00:26,303 | INFO | Training DONE | time=2.56s | final avg_reward(last 500)=1.89
+2026-06-24 20:00:26,919 | INFO | Baseline greedy eval: avg_reward=7.45 std=2.53 avg_steps=13.6
+2026-06-24 20:00:26,932 | INFO | === Experiment: 'baseline (alpha=0.1)' | alpha=0.1000  epsilon=0.1000  gamma=0.90 ===
+2026-06-24 20:00:26,937 | INFO | Training START | alpha=0.1000  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:00:27,988 | INFO | Episode   500/5000 | avg_reward(last 500)=-185.76 | avg_steps= 133.9
+2026-06-24 20:00:28,358 | INFO | Episode  1000/5000 | avg_reward(last 500)= -38.01 | avg_steps=  44.9
+2026-06-24 20:00:28,557 | INFO | Episode  1500/5000 | avg_reward(last 500)=  -5.01 | avg_steps=  20.2
+2026-06-24 20:00:28,699 | INFO | Episode  2000/5000 | avg_reward(last 500)=   0.15 | avg_steps=  16.1
+2026-06-24 20:00:28,828 | INFO | Episode  2500/5000 | avg_reward(last 500)=   1.74 | avg_steps=  15.3
+2026-06-24 20:00:28,959 | INFO | Episode  3000/5000 | avg_reward(last 500)=   2.21 | avg_steps=  14.8
+2026-06-24 20:00:29,088 | INFO | Episode  3500/5000 | avg_reward(last 500)=   2.05 | avg_steps=  14.8
+2026-06-24 20:00:29,225 | INFO | Episode  4000/5000 | avg_reward(last 500)=   2.40 | avg_steps=  14.7
+2026-06-24 20:00:29,355 | INFO | Episode  4500/5000 | avg_reward(last 500)=   2.43 | avg_steps=  14.7
+2026-06-24 20:00:29,479 | INFO | Episode  5000/5000 | avg_reward(last 500)=   1.89 | avg_steps=  15.0
+2026-06-24 20:00:29,487 | INFO | Training DONE | time=2.55s | final avg_reward(last 500)=1.89
+2026-06-24 20:00:29,503 | INFO | === Experiment: 'alpha=0.2' | alpha=0.2000  epsilon=0.1000  gamma=0.90 ===
+2026-06-24 20:00:29,508 | INFO | Training START | alpha=0.2000  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:00:30,292 | INFO | Episode   500/5000 | avg_reward(last 500)=-126.24 | avg_steps=  94.8
+2026-06-24 20:00:30,458 | INFO | Episode  1000/5000 | avg_reward(last 500)=  -2.43 | avg_steps=  18.5
+2026-06-24 20:00:30,591 | INFO | Episode  1500/5000 | avg_reward(last 500)=   1.35 | avg_steps=  15.4
+2026-06-24 20:00:30,715 | INFO | Episode  2000/5000 | avg_reward(last 500)=   2.56 | avg_steps=  14.7
+2026-06-24 20:00:30,862 | INFO | Episode  2500/5000 | avg_reward(last 500)=   2.54 | avg_steps=  14.7
+2026-06-24 20:00:30,980 | INFO | Episode  3000/5000 | avg_reward(last 500)=   2.84 | avg_steps=  14.4
+2026-06-24 20:00:31,108 | INFO | Episode  3500/5000 | avg_reward(last 500)=   2.65 | avg_steps=  14.8
+2026-06-24 20:00:31,230 | INFO | Episode  4000/5000 | avg_reward(last 500)=   2.36 | avg_steps=  14.5
+2026-06-24 20:00:31,352 | INFO | Episode  4500/5000 | avg_reward(last 500)=   2.49 | avg_steps=  14.6
+2026-06-24 20:00:31,478 | INFO | Episode  5000/5000 | avg_reward(last 500)=   1.99 | avg_steps=  15.0
+2026-06-24 20:00:31,482 | INFO | Training DONE | time=1.97s | final avg_reward(last 500)=1.99
+2026-06-24 20:00:31,497 | INFO | === Experiment: 'alpha=0.01' | alpha=0.0100  epsilon=0.1000  gamma=0.90 ===
+2026-06-24 20:00:31,501 | INFO | Training START | alpha=0.0100  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:00:32,998 | INFO | Episode   500/5000 | avg_reward(last 500)=-277.62 | avg_steps= 187.9
+2026-06-24 20:00:34,418 | INFO | Episode  1000/5000 | avg_reward(last 500)=-242.12 | avg_steps= 176.7
+2026-06-24 20:00:35,728 | INFO | Episode  1500/5000 | avg_reward(last 500)=-214.42 | avg_steps= 162.2
+2026-06-24 20:00:36,851 | INFO | Episode  2000/5000 | avg_reward(last 500)=-186.12 | avg_steps= 145.6
+2026-06-24 20:00:37,981 | INFO | Episode  2500/5000 | avg_reward(last 500)=-167.98 | avg_steps= 135.8
+2026-06-24 20:00:38,917 | INFO | Episode  3000/5000 | avg_reward(last 500)=-145.25 | avg_steps= 120.4
+2026-06-24 20:00:39,898 | INFO | Episode  3500/5000 | avg_reward(last 500)=-121.22 | avg_steps= 106.1
+2026-06-24 20:00:40,676 | INFO | Episode  4000/5000 | avg_reward(last 500)=-106.96 | avg_steps=  95.7
+2026-06-24 20:00:41,337 | INFO | Episode  4500/5000 | avg_reward(last 500)= -86.53 | avg_steps=  81.2
+2026-06-24 20:00:41,907 | INFO | Episode  5000/5000 | avg_reward(last 500)= -69.75 | avg_steps=  69.1
+2026-06-24 20:00:41,907 | INFO | Training DONE | time=10.40s | final avg_reward(last 500)=-69.75
+2026-06-24 20:00:42,129 | INFO | === Experiment: 'alpha=0.001' | alpha=0.0010  epsilon=0.1000  gamma=0.90 ===
+2026-06-24 20:00:42,135 | INFO | Training START | alpha=0.0010  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:00:43,711 | INFO | Episode   500/5000 | avg_reward(last 500)=-284.31 | avg_steps= 191.2
+2026-06-24 20:00:45,245 | INFO | Episode  1000/5000 | avg_reward(last 500)=-268.17 | avg_steps= 190.4
+2026-06-24 20:00:46,737 | INFO | Episode  1500/5000 | avg_reward(last 500)=-264.31 | avg_steps= 188.5
+2026-06-24 20:00:48,336 | INFO | Episode  2000/5000 | avg_reward(last 500)=-257.02 | avg_steps= 185.3
+2026-06-24 20:00:49,772 | INFO | Episode  2500/5000 | avg_reward(last 500)=-255.26 | avg_steps= 183.5
+2026-06-24 20:00:51,997 | INFO | Episode  3000/5000 | avg_reward(last 500)=-256.81 | avg_steps= 186.4
+2026-06-24 20:00:54,212 | INFO | Episode  3500/5000 | avg_reward(last 500)=-251.82 | avg_steps= 183.1
+2026-06-24 20:00:55,861 | INFO | Episode  4000/5000 | avg_reward(last 500)=-252.86 | avg_steps= 183.9
+2026-06-24 20:00:57,421 | INFO | Episode  4500/5000 | avg_reward(last 500)=-250.23 | avg_steps= 182.7
+2026-06-24 20:00:58,916 | INFO | Episode  5000/5000 | avg_reward(last 500)=-247.70 | avg_steps= 181.5
+2026-06-24 20:00:58,916 | INFO | Training DONE | time=16.78s | final avg_reward(last 500)=-247.70
+2026-06-24 20:00:59,754 | INFO | === Experiment: 'epsilon=0.2' | alpha=0.1000  epsilon=0.2000  gamma=0.90 ===
+2026-06-24 20:00:59,761 | INFO | Training START | alpha=0.1000  epsilon=0.2000  gamma=0.90  episodes=5000
+2026-06-24 20:01:00,980 | INFO | Episode   500/5000 | avg_reward(last 500)=-225.02 | avg_steps= 139.9
+2026-06-24 20:01:01,361 | INFO | Episode  1000/5000 | avg_reward(last 500)= -54.95 | avg_steps=  48.2
+2026-06-24 20:01:01,566 | INFO | Episode  1500/5000 | avg_reward(last 500)= -14.48 | avg_steps=  22.8
+2026-06-24 20:01:01,733 | INFO | Episode  2000/5000 | avg_reward(last 500)=  -7.21 | avg_steps=  17.9
+2026-06-24 20:01:01,877 | INFO | Episode  2500/5000 | avg_reward(last 500)=  -5.41 | avg_steps=  17.1
+2026-06-24 20:01:02,021 | INFO | Episode  3000/5000 | avg_reward(last 500)=  -5.16 | avg_steps=  17.0
+2026-06-24 20:01:02,163 | INFO | Episode  3500/5000 | avg_reward(last 500)=  -4.83 | avg_steps=  17.0
+2026-06-24 20:01:02,299 | INFO | Episode  4000/5000 | avg_reward(last 500)=  -4.57 | avg_steps=  16.6
+2026-06-24 20:01:02,440 | INFO | Episode  4500/5000 | avg_reward(last 500)=  -5.47 | avg_steps=  16.9
+2026-06-24 20:01:02,587 | INFO | Episode  5000/5000 | avg_reward(last 500)=  -5.58 | avg_steps=  16.9
+2026-06-24 20:01:02,587 | INFO | Training DONE | time=2.83s | final avg_reward(last 500)=-5.58
+2026-06-24 20:01:02,609 | INFO | === Experiment: 'epsilon=0.3' | alpha=0.1000  epsilon=0.3000  gamma=0.90 ===
+2026-06-24 20:01:02,612 | INFO | Training START | alpha=0.1000  epsilon=0.3000  gamma=0.90  episodes=5000
+2026-06-24 20:01:03,884 | INFO | Episode   500/5000 | avg_reward(last 500)=-269.59 | avg_steps= 145.0
+2026-06-24 20:01:04,291 | INFO | Episode  1000/5000 | avg_reward(last 500)= -74.90 | avg_steps=  51.4
+2026-06-24 20:01:04,490 | INFO | Episode  1500/5000 | avg_reward(last 500)= -25.45 | avg_steps=  25.2
+2026-06-24 20:01:04,668 | INFO | Episode  2000/5000 | avg_reward(last 500)= -17.42 | avg_steps=  20.9
+2026-06-24 20:01:04,942 | INFO | Episode  2500/5000 | avg_reward(last 500)= -15.12 | avg_steps=  19.8
+2026-06-24 20:01:05,179 | INFO | Episode  3000/5000 | avg_reward(last 500)= -13.22 | avg_steps=  19.4
+2026-06-24 20:01:05,345 | INFO | Episode  3500/5000 | avg_reward(last 500)= -15.73 | avg_steps=  20.2
+2026-06-24 20:01:05,561 | INFO | Episode  4000/5000 | avg_reward(last 500)= -15.21 | avg_steps=  19.8
+2026-06-24 20:01:05,749 | INFO | Episode  4500/5000 | avg_reward(last 500)= -14.53 | avg_steps=  20.0
+2026-06-24 20:01:05,956 | INFO | Episode  5000/5000 | avg_reward(last 500)= -13.86 | avg_steps=  19.5
+2026-06-24 20:01:05,957 | INFO | Training DONE | time=3.34s | final avg_reward(last 500)=-13.86
+2026-06-24 20:01:06,676 | INFO | === Experiment: 'BEST (alpha=0.2, eps=0.1)' | alpha=0.2000  epsilon=0.1000  gamma=0.90 ===
+2026-06-24 20:01:06,679 | INFO | Training START | alpha=0.2000  epsilon=0.1000  gamma=0.90  episodes=5000
+2026-06-24 20:01:07,448 | INFO | Episode   500/5000 | avg_reward(last 500)=-126.24 | avg_steps=  94.8
+2026-06-24 20:01:07,609 | INFO | Episode  1000/5000 | avg_reward(last 500)=  -2.43 | avg_steps=  18.5
+2026-06-24 20:01:07,754 | INFO | Episode  1500/5000 | avg_reward(last 500)=   1.35 | avg_steps=  15.4
+2026-06-24 20:01:07,882 | INFO | Episode  2000/5000 | avg_reward(last 500)=   2.56 | avg_steps=  14.7
+2026-06-24 20:01:08,018 | INFO | Episode  2500/5000 | avg_reward(last 500)=   2.54 | avg_steps=  14.7
+2026-06-24 20:01:08,146 | INFO | Episode  3000/5000 | avg_reward(last 500)=   2.84 | avg_steps=  14.4
+2026-06-24 20:01:08,282 | INFO | Episode  3500/5000 | avg_reward(last 500)=   2.65 | avg_steps=  14.8
+2026-06-24 20:01:08,425 | INFO | Episode  4000/5000 | avg_reward(last 500)=   2.36 | avg_steps=  14.5
+2026-06-24 20:01:08,561 | INFO | Episode  4500/5000 | avg_reward(last 500)=   2.49 | avg_steps=  14.6
+2026-06-24 20:01:08,687 | INFO | Episode  5000/5000 | avg_reward(last 500)=   1.99 | avg_steps=  15.0
+2026-06-24 20:01:08,687 | INFO | Training DONE | time=2.01s | final avg_reward(last 500)=1.99
+2026-06-24 20:01:08,705 | INFO | Best combination: alpha=0.20 epsilon=0.10 | eval_reward=7.45 (baseline=7.45) | eval_steps=13.6
